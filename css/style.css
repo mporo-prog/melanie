@@ -1,0 +1,91 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    width: 100%;
+    background-color: #9b2d30;
+    display: flex;
+    justify-content: center;
+    font-family: "SN Pro";
+}
+.image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50px;
+    width: 70vw;
+    img{
+        width: 70vw;
+        height: auto;
+    }
+}
+.candle{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    img{
+        width: 15vw;
+        height: auto;
+    }
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.text{
+    width: 50vw;
+    p{
+        text-align: center;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+.country{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.uk_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        font-size: 20px;
+        display: none;
+    }
+}
+.portugal_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        font-size: 20px;
+        display: none;
+    }
+}
+.russia_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        font-size: 20px;
+        display: none;
+    }
+}
+.russia_image{
+    height: 20vw;
+    width: auto;
+}
+.portugal_image{
+    width: 20vw;
+    height: auto;
+}
+.uk_image{
+    width: 20vw;
+    height: auto;
+}
