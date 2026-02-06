@@ -2,10 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 body{
     width: 100%;
-    background-color: #9b2d30;
+    background-color: black;
     display: flex;
     justify-content: center;
     font-family: "SN Pro";
+    flex-direction: column;
+    align-items: center;
+    color: #9b2d30;
+    gap: 4vw;
+    
+}
+h1{
+    font-size: 6vw;
+}
+p{
+    font-size: 3vw;
+}
+img{
+    user-select: none;
+    -webkit-user-drag: none;
 }
 .image{
     display: flex;
@@ -20,8 +35,8 @@ body{
 }
 .candle{
     position: absolute;
-    top: 120px;
-    left: 80px;
+    top: 6vw;
+    left: 3vw;
     img{
         width: 15vw;
         height: auto;
@@ -32,13 +47,12 @@ body{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 20px;
+    gap: 4vw;
 }
 .text{
     width: 50vw;
     p{
         text-align: center;
-        font-size: 50px;
         display: flex;
         justify-content: center;
     }
@@ -47,7 +61,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .uk_text{
@@ -55,7 +69,6 @@ body{
     flex-direction: column;
     align-items: center;
     p{
-        font-size: 20px;
         display: none;
     }
 }
@@ -64,7 +77,6 @@ body{
     flex-direction: column;
     align-items: center;
     p{
-        font-size: 20px;
         display: none;
     }
 }
@@ -73,13 +85,8 @@ body{
     flex-direction: column;
     align-items: center;
     p{
-        font-size: 20px;
         display: none;
     }
-}
-.russia_image{
-    height: 20vw;
-    width: auto;
 }
 .portugal_image{
     width: 20vw;
@@ -88,4 +95,73 @@ body{
 .uk_image{
     width: 20vw;
     height: auto;
+}
+.div_school{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+.school{
+    width: 80vw;
+    height: auto;
+}
+.mel{
+    position: absolute;
+    width: 35vw;
+    height: auto;
+    right: 0;
+    bottom: -2vw;
+}
+.money{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 0;
+    display: none;
+}
+.div{
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    left: 0;
+    display: none;
+    background-color: #fff;
+}
+.div_new{
+    position: absolute;
+    width: 35vw;
+    height: 35vw;
+    right: 0;
+}
+.enter{
+    position: absolute;
+    top: -1vw;
+    right: 0;
+    display: none;
+}
+.enter_none{
+    position: absolute;
+    top: -4vw;
+    right: 0;
+    display: none;
+}
+.snake{
+    position: absolute;
+    left: 0;
+    width: 70vw;
+    height: auto;
+}
+.snake_div{
+    width: 100%;
+    position: relative;
+}
+.snake_sh{
+    position: absolute;
+    top: -8vw;
+    left: 65vw;
+    width: 30vw;
+    height: auto;
+    display: none;
 }
